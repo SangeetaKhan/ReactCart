@@ -1,0 +1,15 @@
+.prodCont{
+  width: 70%;
+  border: 1px solid rgba(96, 125, 139, 0.33);
+  background: rgba(96, 125, 139, 0.33);
+  float: left;
+  box-sizing: border-box;
+}
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 640px)
+ {
+   .newsList{
+     width:50%;
+   }
+}

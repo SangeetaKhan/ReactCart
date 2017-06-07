@@ -1,0 +1,29 @@
+.summary{
+  width:29%;
+  float: right;
+  box-sizing: border-box;
+}
+.summary > h4 {text-align: center;}
+.itemSum { border-bottom: 1px solid;line-height: 0;font-size: 12px;}
+.items ,.total {width: 45%;text-align: center;}
+.items {float: left;}
+.total {float: right;}
+.clearfix{clear: both;}
+.summaryTable > table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.summaryTable  table  td , .summaryTable table th{
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}
+
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 640px)
+ {
+   .newsList{
+     width:50%;
+   }
+}

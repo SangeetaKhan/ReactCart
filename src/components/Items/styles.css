@@ -1,0 +1,27 @@
+.prodList{
+  width:30%;
+  display: inline-block;
+  margin:20px 15px;
+  box-sizing: border-box;
+}
+.items{
+  box-sizing: border-box;
+  box-shadow: 2px 0px 4px 4px rgba(158, 158, 158, 0.35);
+  background: #ffffff;
+  border-radius:5px;
+  border: 1px solid #e2e2e2;
+  padding-bottom:5px;
+}
+.brandImg{text-align: center;}
+.brandImg > img{width:250px;}
+.brandDet {text-align: center;}
+.clearfix{clear: both;}
+
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 640px)
+ {
+   .newsList{
+     width:50%;
+   }
+}

@@ -1,0 +1,18 @@
+.addCont{
+  text-align: center;
+  margin:10px 0px;
+}
+.addCont  button{
+  padding: 10px 20px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+}
+
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 640px)
+ {
+   .newsList{
+     width:50%;
+   }
+}
