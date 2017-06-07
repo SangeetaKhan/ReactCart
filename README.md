@@ -1,3 +1,5 @@
+URL : /shopping-cart
+
 Steps to be followed :
 
 node version : 6
