@@ -29,6 +29,7 @@ export default function CartReducer(state = null, action) {
       const quantity = updateValue ? state.quantity + 1 : state.quantity - 1;
       const price = updateValue ? state.price + priceAmt : state.price - priceAmt;
       state.prodObj.indexOf(item) === -1 ? state.prodObj.push(item) :'';
+      item.itemQuan <=1 && updateValue === false ? state.prodObj.pop(item) : '';
       return {
         ...state,
         updateValue,
